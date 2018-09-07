@@ -3,11 +3,11 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Started build: `date`
+      - echo Started build at `date`
       - python Adder_tst.py
   post_build:
     commands:
-      - echo Finished build: `date`
+      - echo Finished build at `date`
 artifacts:
   files:
     - Adder.py
